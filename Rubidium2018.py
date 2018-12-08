@@ -1,9 +1,6 @@
 # you can write to stdout for debugging purposes, e.g.
 # print("this is a debug message")
 
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
-
 def closest_split_pair(p_x, p_y, delta, best_pair):
     ln_x = len(p_x)  # store length - quicker
     mx_x = p_x[ln_x // 2][0]  # select midpoint on x-sorted array
